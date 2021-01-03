@@ -18,6 +18,8 @@ repositories {
 dependencies {
     implementation "org.testng:testng:7.1.0"
     implementation "io.appium:java-client:7.4.1"
+
+    implementation 'ch.qos.logback:logback-classic:1.2.3'
 }
 
 test {
